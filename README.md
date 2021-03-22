@@ -11,10 +11,15 @@ CloudFront: https://d1ahvmpbzjqgfc.cloudfront.net.
 Please see the text _"manual re-deployment through CloudFront"_ near copyright text in the footer. This manual addition proves that CloudFront invalidation went successfully.
 
 #### Task 2.2: Automated deployment
+A separate infrastructure was used for automated deployments from Task 2. 
 
-S3:
+Bucket and CloudFront created with `serverless-finch` were deleted before using `serverless-single-page-app-plugin`.
 
-CloudFront:
+S3: http://epam-aws-training-task-2-2.s3-website-eu-west-1.amazonaws.com/
+
+CloudFront: https://d2j9gtvajrfv07.cloudfront.net/
+
+Please see the text _"- deployed with plugin"_ near copyright text in the footer. This addition proves automatic CloudFront invalidation by `serverless-single-page-app-plugin` went successfully.
 
 
 ## Available Scripts
