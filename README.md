@@ -1,5 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Links to AWS infrastructure:
+
+#### Task 2.1: Manual deployment:
+
+S3: http://epam-aws-training-task-2-1-manual.s3-website-eu-west-1.amazonaws.com/
+
+CloudFront: https://d1ahvmpbzjqgfc.cloudfront.net. 
+
+Please see the text _"manual re-deployment through CloudFront"_ near copyright text in the footer. This manual addition proves that CloudFront invalidation went successfully.
+
+#### Task 2.2: Automated deployment
+
+S3:
+
+CloudFront:
+
+
 ## Available Scripts
 
 In the project directory, you can run:  
